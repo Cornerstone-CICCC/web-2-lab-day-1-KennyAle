@@ -3,6 +3,18 @@ body {
     place-content: center;
 }
 
+.card ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
 .bold {
     font-weight: bold;
 }
