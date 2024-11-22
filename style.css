@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    place-content: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.isDay {
+    background-image: url(./images/day.jpg);
+    background-position: center;
+}
+
+.isNight {
+    background-image: url(./images/night.jpg);
+    background-position: center;
+    color: white;
+}
+
+td {
+    border: 1px solid;
+}
